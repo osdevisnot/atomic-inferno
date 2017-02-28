@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "target": "es5",
+    "noUnusedLocals": true,
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ],
+    "types": [
+     "inferno"
+    ]
+  },
+  "include": [
+    "src/*.tsx",
+    "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
